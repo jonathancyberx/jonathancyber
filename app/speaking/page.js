@@ -103,6 +103,9 @@ const Speaking = () => {
       visible: { opacity: 1, y: 0, transition: { duration: 0.8, delay: 0.8 } },
     };
   
+    useEffect(() => {
+      document.title = "Jonathan Ayodele | Speaking";
+    }, []);
 
   return (
     <div id='speaking'>
@@ -123,7 +126,7 @@ const Speaking = () => {
                   As a seasoned cybersecurity professional and digital literacy advocate, Jonathan has shared his insights on 
                   some of the industry’s most pressing issues at conferences, webinars, and international forums. Specializing 
                   in Cybersecurity, Digital Literacy, and Youth Empowerment, His key areas include cybersecurity innovation, 
-                  risk management, and the intersection of technology and socio-economic development, Career advancement. As 
+                  risk management, and the intersection of technology, socio-economic development, and career advancement. As 
                   an advocate for cybersecurity and digital skills, Jonathan is passionate about raising awareness on cyber 
                   resilience, and safe digital practices in an increasingly connected world. With interests in business 
                   innovation, startups, and SME development, Jonathan brings a unique blend of technical expertise and 

@@ -1,5 +1,6 @@
 "use client";
 
+import Head from "next/head";
 import React, { useState, useEffect } from 'react';
 import Modal from "../components/Modal";
 import Image from 'next/image';
@@ -156,9 +157,20 @@ const Awards = () => {
       visible: { opacity: 1, y: 0, transition: { duration: 0.8, delay: 0.8 } },
     };
   
-
+    useEffect(() => {
+      document.title = "Jonathan Ayodele | Awards | Recognitions | Media Mentions";
+    }, []);
+    
   return (
     <div id='awards'>
+      <></>
+      <Head>
+        <title>Jonathan Ayodele | Awards | Recognitions | Media Mentions</title>
+        <meta
+          name="description"
+          content="A list of my awards, recognitions, and media mentions in the field of cybersecurity and technology."
+        />
+      </Head>
       <Navbar />
        <div id='jaca' className=' text-gray-100 min-h-screen flex  items-center justify-center'>
                  <div className='bg-gradient-to-l bg-[#122455] align-center lg:pl-32 rounded-xl m-auto pt-0 px-10 lg:gap-10 min-h-[30rem] h-full flex w-[90%] lg:w-4/5 flex-col lg:flex-row items-center justify-center'>
