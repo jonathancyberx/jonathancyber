@@ -17,7 +17,7 @@ const Features = () => {
       <div className="max-w-6xl mx-auto px-6">
         <h2 className="text-4xl text-center text-white mb-8 font-bold">Features</h2>
         <div className="overflow-hidden relative">
-          <div className="flex animate-marquee space-x-12">
+          <div className="flex flex-wrap lg:space-x-10  gap-4 lg:justify-between justify-evenly items-center">
             <div className="flex-shrink-0">
               <Image src={feature1} alt="Logo 1" width={ 50 } height={ 50 } />
             </div>

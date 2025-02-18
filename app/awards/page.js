@@ -197,6 +197,18 @@ const Awards = () => {
             Awards & Media
           </motion.div>
           <div className=" min-h-[20rem] h-full flex flex-col lg:flex-row items-center justify-center lg:gap-4 gap-5">
+           
+            <div className="lg:w-1/2  md:pt-0 items-center justify-center lg:block m-auto w-full lg:mb-0 text-center lg:text-left">
+              <motion.img
+                src="./awardJ.jpeg"
+                alt="my profile picture"
+                className=" shadow-[#122455] rounded"
+                variants={imageVariants}
+                // initial="hidden"
+                // animate={controls}
+                ref={ref}
+              />
+            </div>
             <div className="lg:w-1/2  w-full lg:mb-0 text-center items-center lg:text-left">
               <div className="w-full leading-6 mx-auto lg:mx-0">
                 <motion.div
@@ -213,17 +225,6 @@ const Awards = () => {
                   community and industry. Notable accolades include:
                 </motion.div>
               </div>
-            </div>
-            <div className="lg:w-1/2  md:pt-0 items-center justify-center lg:block m-auto w-full lg:mb-0 text-center lg:text-left">
-              <motion.img
-                src="./awardJ.jpeg"
-                alt="my profile picture"
-                className=" shadow-[#122455] rounded"
-                variants={imageVariants}
-                // initial="hidden"
-                // animate={controls}
-                ref={ref}
-              />
             </div>
           </div>
         </div>

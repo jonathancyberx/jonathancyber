@@ -133,9 +133,10 @@ const Speaking = () => {
           >
             Speaking Engagements
           </motion.div>
-          <div className="pt-0 px-4 lg:gap-10 gap-4 flex  flex-col lg:flex-row items-center justify-center pb-6">
-            <div className="lg:w-1/2  w-full lg:mb-0 text-center items-center lg:text-left">
-              <div className="w-full sm:w-[30rem] leading-6 mx-auto lg:mx-0">
+          <div className="pt-0 px-4 lg:gap-10 gap-4 flex flex-col lg:flex-row items-center justify-center pb-6">
+            {/* Reorder elements for mobile */}
+            <div className="lg:w-1/2 w-full lg:mb-0 text-center items-center lg:text-left order-2 lg:order-1"> {/* order-2 for mobile, order-1 for larger screens */}
+               <div className="w-full sm:w-[30rem] leading-6 mx-auto lg:mx-0">
                 <motion.div
                   className=" text-sm sm:text-base "
                   variants={textVariants}
