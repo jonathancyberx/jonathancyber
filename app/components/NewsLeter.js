@@ -27,7 +27,7 @@ const NewsletterSignup = () => {
             <FaTwitter className="text-xl" />
           </a>
           <a
-             href="https://www.instagram.com/ayodelejona/" target="_blank"
+             href="https://www.instagram.com/jonathan.cyber" target="_blank"
             className="text-[#122455] bg-white p-3 rounded-full shadow-md hover:scale-110 transition-transform"
           >
             <FaInstagram className="text-xl" />
@@ -41,7 +41,7 @@ const NewsletterSignup = () => {
         </div>
         {/* Subscription Prompt */}
         <h3 className="text-xl text-red-200 font-medium mb-6">
-          Subscribe to my weekly articles
+          Subscribe to my articles
         </h3>
         {/* Newsletter Form */}
         <form className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
@@ -60,7 +60,7 @@ const NewsletterSignup = () => {
       </div>
       {/* Footer Section */}
       <div className="mt-8 text-center text-gray-400">
-        <p>Email: jonaayodele@gmail.com</p>
+        <p>Email: web@jonathanayodele.com</p>
         <p className="mt-4">&copy; Jonathan Ayodele - All rights reserved.</p>
       </div>
     </section>

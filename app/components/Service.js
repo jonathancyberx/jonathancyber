@@ -5,7 +5,7 @@ import { useState, useEffect, useRef } from 'react';
 const Services = () => {
 
     const services = [
-        {id: 1, title: 'Cybersecurity Growth', description: 'I can help you leverage your existing Cybersecurity experiences to apply for and take advantage Global Opportunities like scholarships, study abroad etc', activity1:'CV reviews, writing and Revamp', activity2: 'Linkedin Optimization', activity3: 'Cover Letter', activity4: 'Job Search Strategy', activity5:'Study abroad & Scholarships Coaching'},
+        {id: 1, title: 'Cybersecurity Growth', description: 'I can help you leverage your existing Cybersecurity experiences to apply for and take advantage Global Opportunities like scholarships, study abroad etc', activity1:'CV Reviews, Writing and Revamp', activity2: 'Linkedin Optimization', activity3: 'Cover Letter', activity4: 'Job Search Strategy', activity5:'Study abroad & Scholarships Coaching'},
         {id: 2, title: 'Trainings', description: 'Engaging training programs designed to enhance cybersecurity awareness and digital skills for teams and individuals at all levels.', activity1:'Customized workshops.', activity2: 'Hands-on trainings.', activity3: 'Continuous learning and development.'},
         {id: 3, title: 'Deployment', description: 'Expert deployment services to implement cutting-edge cybersecurity solutions that protect your organization’s data and infrastructure.', activity1:'Integration of security tools that fit business needs.', activity2: 'Configuration and optimization.', activity3: 'Compliance'},
 

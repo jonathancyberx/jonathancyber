@@ -43,7 +43,7 @@ const Impact = () => {
           animate={controls}
           ref={ref}
         >
-          100%
+          97%
         </motion.div>
       </motion.div>
       <motion.div
@@ -79,7 +79,7 @@ const Impact = () => {
           animate={controls}
           ref={ref}
         >
-          97%
+          89%
         </motion.div>
       </motion.div>
     </div>

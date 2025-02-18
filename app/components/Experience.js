@@ -35,40 +35,40 @@ const Experience = () => {
       role: 'Cybersecurity Architect ',
       logo: '',
       company: 'Bitscape Technologies',
-      date: 'September.2024 - Present',
-      location: 'Nigeria',
+      date: '.',
+      location: '.',
       description: '',
-      activity: 'As a Cybersecurity Architect I designed and implemented a cybersecurity architecture framework, reducing vulnerabilities by 35%. Conducted risk assessments, leading to a 50% reduction in critical risks. Developed and deployed an incident response framework, reducing response times by 40%. Architected and deployed secure cloud solutions on Azure, ensuring seamless integration with existing systems.',
+      activity: '',
     },
     {
       id: 2,
       role: 'Information Security Officer',
       logo: '',
       company: 'LAYER21',
-      date: 'Nov.2023 - May.2024',
-      location: 'United Kingdom',
+      date: '',
+      location: 'UK',
       description: '',
-      activity: 'Enhanced security policies, improving overall security posture by 15%. Assisted in implementing ISO 27001 Information Security Management System, ensuring compliance and improving security posture. Conducted IT risk assessments and implemented controls that reduced potential security threats by 20%. Developed security awareness programs'
+      activity: ''
     },
     {
       id: 3,
       role: 'Cybersecurity Analyst',
       logo: '',
       company: 'CYBRAIK LTD',
-      date: 'May.2023 - Nov.2023',
-      location: 'Lagos, Nigeria',
+      date: '.',
+      location: '',
       description: '',
-      activity: 'Led threat hunting exercises, identifying and mitigating threats with a 95% resolution rate. Developed automated scripts, enhancing incident detection and response efficiency by 30%. Collaborated with IT teams to implement security controls, increasing system security by 20%. Introduced advanced mechanisms for identifying emerging security threats, strengthening security posture. Applied STRIDE methodology for threat modeling and integrated indicators of compromise (IoCs) into the SIEM system for improved detection.'
+      activity: ''
     },
     {
       id: 4,
       role: 'Cybersecurity Engineer',
       logo: '',
       company: 'PATHWAY DIGITAL SOLUTION',
-      date: 'Feb.2020 - Aug.2022',
+      date: '.',
       location: 'Lagos, Nigeria',
       description: '',
-      activity: 'Restructured cloud IAM policies, reducing over-permissive roles by 60%. Introduced a cloud DLP solution, mitigating over 100 data exposure incidents in its first year. Configured and managed firewalls and VPNs, reducing unauthorized access by 20%. Strengthened security defenses with EDR/XDR, email security, Microsoft Security Solutions, and network-based security controls. Integrated cloud security monitoring with the SIEM system, enhancing visibility into cloud threats.',
+      activity: '',
     },
   ];
 

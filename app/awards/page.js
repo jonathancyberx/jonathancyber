@@ -16,7 +16,7 @@ const awards = [
     id: 1,
     title: "SME Africa 25under25 Awards (2019 & 2020)",
     date: "2019 & 2020",
-    imageSrc: "/awards8.jpg",
+    imageSrc: "/25under25.png",
     description:
       "Nominated in the technology category for outstanding contributions to the tech industry and support of small and medium enterprises in Africa.",
   },
@@ -24,7 +24,7 @@ const awards = [
     id: 2,
     title: "UK Cyber Diversity Awards (2024)",
     date: "April 2024",
-    imageSrc: "/diversityaward.png",
+    imageSrc: "/cyberdiversity.png",
     description:
       'Recognized as "Highly Commended" for efforts in promoting diversity and inclusion within the UK sector.',
   },
@@ -32,18 +32,18 @@ const awards = [
     id: 3,
     title: "One to Watch - UK Real Cyber Awards (2024)",
     date: "November 2024",
-    imageSrc: "/onetowatch.png",
+    imageSrc: "/onetowatch.jpg",
     description:
-      "Nominated for and won this prestigious award, highlighting emerging leaders in cybersecurity.",
+      "Nominated for and won this prestigious award, highlighting emerging leaders in the UK Cybersecurity sector.",
   },
 ];
 
 const certifications = [
-  "Certified Information Systems Security Professional (CISSP)",
+  "Certified Information Systems Security Professional (CISSP) (InView)",
   "CompTIA Security+",
   "ISO 27001 Lead Implementer",
-  "Microsoft Cybersecurity Architect",
-  "Microsoft Security Engineer",
+  "Microsoft Cybersecurity Architect (SC100)",
+  "Microsoft Security Engineer (AZ500)",
   "Certified in Cybersecurity",
   "Digital Marketing",
 ];
