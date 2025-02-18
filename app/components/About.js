@@ -6,6 +6,7 @@ import { useEffect } from 'react';
 import { useInView } from 'react-intersection-observer';
 import { Cursor, useTypewriter } from 'react-simple-typewriter';
 
+
 const About = () => {
   const textVariants = {
     hidden: { opacity: 0.3, y: 50 },
@@ -73,14 +74,14 @@ const About = () => {
         </motion.div>
         <div className='w-1/3 flex items-center justify-center'>
           <motion.img
-            src='https://sample-57.s3.us-east-1.amazonaws.com/jonath-cyber/J-black.PNG'
+            src="/whoami.jpeg"
             alt='my profile picture'
             className='rounded-full'
             variants={ imageVariants }
             initial="hidden"
             animate={ controls }
-            width={ 200 }
-            height={ 200 }
+            width={ 150 }
+            height={ 150 }
             ref={ ref } />
         </div>
         <motion.div

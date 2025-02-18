@@ -33,8 +33,9 @@ export default function Home() {
 
 
   return (
-   <DivGrey className=" bg-[#050E28] overflow-hidden font-montserrat">
+   <DivGrey className=" bg-[#050E28]  font-montserrat relative">
     <Navbar />
+    <div className={`overflow-hidden`}>
     <Hero />
     <About  />
     <Features />
@@ -46,6 +47,8 @@ export default function Home() {
     <Contact />
     <Calendar />
     <NewsletterSignup />
+    </div>
+   
    </DivGrey>
   );
 

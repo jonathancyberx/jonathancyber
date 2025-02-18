@@ -1,5 +1,15 @@
 import Image from "next/image";
 import React from "react";
+import feature1 from "../../public/features-1.png"
+import feature2 from "../../public/features-2.png"
+import feature3 from "../../public/features-3.png"
+import feature4 from "../../public/features-4.webp"
+import feature5 from "../../public/features-5.png"
+import feature6 from "../../public/features-6.png"
+import feature7 from "../../public/features-7.png"
+import feature8 from "../../public/features-8.webp"
+import feature9 from "../../public/features-9.gif"
+
 
 const Features = () => {
   return (
@@ -9,39 +19,37 @@ const Features = () => {
         <div className="overflow-hidden relative">
           <div className="flex animate-marquee space-x-12">
             <div className="flex-shrink-0">
-              <Image src="https://sample-57.s3.us-east-1.amazonaws.com/jonath-cyber/awards8.jpg" alt="Logo 1" width={ 16 } height={ 16 } />
+              <Image src={feature1} alt="Logo 1" width={ 50 } height={ 50 } />
             </div>
             <div className="flex-shrink-0">
-              <Image src="https://sample-57.s3.us-east-1.amazonaws.com/jonath-cyber/awards8.jpg" alt="Logo 2" width={ 16 } height={ 16 } />
+              <Image src={feature2} alt="Logo 2" width={ 50 } height={ 50 } />
 
             </div>
             <div className="flex-shrink-0">
-              <Image src="https://sample-57.s3.us-east-1.amazonaws.com/jonath-cyber/awards8.jpg" alt="Logo 3" width={ 16 } height={ 16 } />
+              <Image src={feature3} alt="Logo 3" width={ 50 } height={ 50 } />
 
             </div>
             <div className="flex-shrink-0">
-              <Image src="https://sample-57.s3.us-east-1.amazonaws.com/jonath-cyber/awards8.jpg" alt="Logo 4" width={ 16 } height={ 16 } />
+              <Image src={feature4} alt="Logo 4" width={ 50 } height={ 50 } />
             </div>
             <div className="flex-shrink-0">
-              <Image src="https://sample-57.s3.us-east-1.amazonaws.com/jonath-cyber/awards8.jpg" alt="Logo 5" width={ 16 } height={ 16 } />
+              <Image src={feature5} alt="Logo 5" width={ 50 } height={ 50 } />
             </div>
             {/* Duplicate logos */}
             <div className="flex-shrink-0">
-              <Image src="https://sample-57.s3.us-east-1.amazonaws.com/jonath-cyber/awards8.jpg" alt="Logo 1" width={ 16 } height={ 16 } />
+              <Image src={feature6} alt="Logo 1" width={ 50 } height={ 50 } />
 
             </div>
             <div className="flex-shrink-0">
-              <Image src="https://sample-57.s3.us-east-1.amazonaws.com/jonath-cyber/awards8.jpg" alt="Logo 2" width={ 16 } height={ 16 } />
+              <Image src={feature7} alt="Logo 2" width={ 50 } height={ 50 } />
             </div>
             <div className="flex-shrink-0">
-              <Image src="https://sample-57.s3.us-east-1.amazonaws.com/jonath-cyber/awards8.jpg" alt="Logo 3" width={ 16 } height={ 16 } />
+              <Image src={feature8} alt="Logo 3" width={ 50 } height={ 50 } />
             </div>
             <div className="flex-shrink-0">
-              <Image src="https://sample-57.s3.us-east-1.amazonaws.com/jonath-cyber/awards8.jpg" alt="Logo 4" width={ 16 } height={ 16 } />
+              <Image src={feature9} alt="Logo 4" width={ 50 } height={ 50 } />
             </div>
-            <div className="flex-shrink-0">
-              <Image src="https://sample-57.s3.us-east-1.amazonaws.com/jonath-cyber/awards8.jpg" alt="Logo 5" width={ 16 } height={ 16 } />
-            </div>
+           
           </div>
         </div>
       </div>
