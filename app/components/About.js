@@ -133,7 +133,7 @@ const About = () => {
             optimizing technology resources for enhanced productivity and growth. Having worked as a Cybersecurity Engineer,
             Cybersecurity Analyst, and information security officer Skilled in cybersecurity risk assessment, Network security,
             endpoint detection and response,
-            monitoring and investigation etc. I hold certifications such as ISO 27001 Lead Implementer, Security+, CCNA, CompTIA A+. </motion.span>
+            monitoring and investigation etc. </motion.span>
         </motion.div>
         <motion.div
           className='w-full md:w-1/3 text-sm md:text-base leading-8 text-center md:text-left'
@@ -147,9 +147,7 @@ const About = () => {
             He is a member of the Cyber Security Experts Association of Nigeria, the British Computer Society,
             ISC2, ISACA and the Chartered Institute of Information Security, London. I am passionate about
             creating economic advancement opportunities for young ones leveraging technology and also an advocate of a
-            diverse and inclusive tech ecosystem and volunteers as a UK STEM Ambassador and CyberFirst Ambassador, an initiative of the
-            National Cyber Security Centre (NCSC), an arm of the GCHQ, promoting diversity in tech and inspiring the
-            next generation of tech talents.</motion.span>
+            diverse and inclusive tech ecosystem.</motion.span>
           <motion.div className='py-4 font-normal'>
             <a
               href=' https://drive.google.com/drive/folders/1quWhSClM_-IVDspYz6vQMkDvIgAXwReR?usp=drive_link'

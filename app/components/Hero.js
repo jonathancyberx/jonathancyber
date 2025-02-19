@@ -50,7 +50,7 @@ const  Hero = () => {
               animate={controls}
               ref={ref}
             >
-              Jonathan Ayodele - Cybersecurity Expert
+              Jonathan Ayodele - Cybersecurity Professional
             </motion.div>
             <motion.div
               className=' text-sm sm:text-base'
@@ -59,7 +59,7 @@ const  Hero = () => {
               animate={controls}
               ref={ref}
             >
-            Helping businesses Stay Cyber Resilient | Shaping a Safer Digital World through Cyber Education | Empowering Next Generation of CyberFutures 
+            Helping businesses Stay Cyber Resilient | Shaping a Safer Digital World through Cyber Education | Empowering Next Cyber Generation 
 
             </motion.div>
           </div>

@@ -10,30 +10,57 @@ import NewsletterSignup from "../components/NewsLeter";
 const previousEngagements = [
   {
     id: 1,
-    event: "CyberTech Conference 2023",
-    location: "London, UK",
+    event: "Cybersecure Nigeria Conference 2024",
+    location: "Abuja, Nigeria",
     description:
-      "I shared insights on the latest trends in cybersecurity, focusing on AI and machine learning’s impact on cybersecurity strategies and emerging threats in the digital space.",
-    topics: "Cybersecurity Innovation, AI & Machine Learning in Cybersecurity",
-    imageSrc: "/awards8.jpg",
+      "I shared insights on AI-Driven Strategies for Enhancing Human Cybersecurity Awareness in Nigeria.",
+    topics: "Cybersecurity Awareness & Innovation, AI & Machine Learning in Cybersecurity",
+    imageSrc: "/cybersecurenigeria.jpeg",
   },
   {
     id: 2,
-    event: "Women in Technology Summit 2023",
+    event: "Women in Cybersecurity 2024",
     location: "Virtual",
     description:
-      "A panel discussion on the barriers women face in technology and cybersecurity, alongside practical advice for overcoming these obstacles and building inclusive environments.",
+      "A panel discussion on goal stting in cybersecurity, alongside practical advice for overcoming these obstacles and building inclusive environments.",
     topics: "Diversity in Tech, Empowering Women in Cybersecurity",
-    imageSrc: "/awards8.jpg",
+    imageSrc: "/wicy.png",
   },
   {
     id: 3,
-    event: "Global Digital Literacy Forum 2024",
-    location: "New York, USA",
+    event: "Africa CyberFest 2024",
+    location: "Lagos, Nigeria",
     description:
       "I spoke about the importance of digital literacy in today’s interconnected world, emphasizing digital skills for the younger generation and how they can prepare for careers in cybersecurity.",
     topics: "Digital Literacy, Youth Empowerment in Tech",
-    imageSrc: "/awards8.jpg",
+    imageSrc: "/africacyberfest.jpg",
+  },
+  {
+    id: 4,
+    event: "Security Awareness Special Interest Group (SASIG)",
+    location: "London, United Kingdom",
+    description:
+      "This event delves into the intricate relationship between SMEs’ risk perceptions and the effectiveness of their cybersecurity training. Drawing from extensive research, unveiling surprising insights into how SMEs view cyber risks and the impact of these perceptions on their training outcomes..",
+    topics: "SME Cybersecurity,  Cyber Resilence",
+    imageSrc: "/sasig.png",
+  },
+  {
+    id: 5,
+    event: "Limitless Conference",
+    location: "London, United Kingdom",
+    description:
+      "I spoke about the importance of cybersecurity, how to stay vigilant and aviod falling for social engineering tactics to an audience of over 500 attendees.",
+    topics: "Social Engineering, Youth Empowerment in Tech",
+    imageSrc: "/limitless.jpg",
+  },
+  {
+    id: 6,
+    event: "AI Catalyst for Career & Business Success",
+    location: "Lagos, Nigeria",
+    description:
+      "I spoke ot a group of founders and business owners on the importance of cybersecurity and how they can stay secure on a budget.",
+    topics: "SME, Cybersecurity Innovation",
+    imageSrc: "/aievent.jpg",
   },
 ];
 const areasOfExpertise = [
@@ -144,17 +171,14 @@ const Speaking = () => {
                   animate={controls}
                   ref={ref}
                 >
-                  As a seasoned cybersecurity professional and digital literacy
-                  advocate, Jonathan has shared his insights on some of the
+                  As a seasoned cybersecurity professional, Jonathan has shared his 
+                  insights on some of the
                   industry’s most pressing issues at conferences, webinars, and
                   international forums. Specializing in Cybersecurity, Digital
                   Literacy, and Youth Empowerment, His key areas include
-                  cybersecurity innovation, risk management, and the
+                  cybersecurity innovation, SME, and the
                   intersection of technology, socio-economic development, and
-                  career advancement. As an advocate for cybersecurity and
-                  digital skills, Jonathan is passionate about raising awareness
-                  on cyber resilience, and safe digital practices in an
-                  increasingly connected world. With interests in business
+                  career advancement. With interests in business
                   innovation, startups, and SME development, Jonathan brings a
                   unique blend of technical expertise and entrepreneurial
                   insight to his sessions. Audiences leave his sessions equipped
