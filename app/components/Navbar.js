@@ -12,7 +12,7 @@ const navigationItems = [
   { id: 'services', name: 'Services', link: '/#services' },
   { id: 'awards', name: 'Awards & Media', link: '/awards' },
   { id: 'speaking', name: 'Speaking', link: '/speaking' },
-  { id: 'blog', name: 'Blog', link: '/https://jonathanayodele.com/blog/' },
+  { id: 'blog', name: 'Blog', link: 'https://blog.jonathanayodele.com' },
   { id: 'contact', name: 'Contact Me', link: '/#contact' },
 ];
 

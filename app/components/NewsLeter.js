@@ -61,6 +61,7 @@ const NewsletterSignup = () => {
       {/* Footer Section */}
       <div className="mt-8 text-center text-gray-400">
         <p>Email: web@jonathanayodele.com</p>
+        <p>Thanks to Job, CA & BMO for contributing to this</p>
         <p className="mt-4">&copy; Jonathan Ayodele - All rights reserved.</p>
       </div>
     </section>
