@@ -147,13 +147,13 @@ const About = () => {
             He is a member of the Cyber Security Experts Association of Nigeria, the British Computer Society,
             ISC2, ISACA and the Chartered Institute of Information Security, London. I am passionate about
             creating economic advancement opportunities for young ones leveraging technology and also an advocate of a
-            diverse and inclusive tech ecosystem.</motion.span>
+            diverse and inclusive tech ecosystem. Follow me on Linkedin</motion.span>
           <motion.div className='py-4 font-normal'>
             <a
-              href=' https://drive.google.com/drive/folders/1quWhSClM_-IVDspYz6vQMkDvIgAXwReR?usp=drive_link'
+              href=' https://linkedin.com/in/jonatayo'
               className="bg-[#8B0000] mt-4 lg:mt-6 hover:bg-blue-700 text-gray-300 font-bold py-2 px-4 rounded"
             >
-              View my CV
+              Follow me on Linkedin
             </a>
           </motion.div>
         </motion.div>

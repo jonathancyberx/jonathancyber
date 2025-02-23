@@ -34,41 +34,51 @@ const Experience = () => {
       id: 1,
       role: 'Cybersecurity Architect ',
       logo: '',
-      company: 'Bitscape Technologies',
-      date: '.',
+      company: '',
+      date: '',
       location: '.',
       description: '',
-      activity: '',
+      activity: 'Cyber & Cloud Security Deployment',
     },
     {
       id: 2,
       role: 'Information Security Officer',
       logo: '',
-      company: 'LAYER21',
+      company: '',
       date: '',
       location: 'UK',
       description: '',
-      activity: ''
+      activity: 'Information Security Management'
     },
     {
       id: 3,
       role: 'Cybersecurity Analyst',
       logo: '',
-      company: 'CYBRAIK LTD',
-      date: '.',
+      company: '',
+      date: '',
       location: '',
       description: '',
-      activity: ''
+      activity: 'Security Monitoring and Analysis'
     },
     {
       id: 4,
       role: 'Cybersecurity Engineer',
       logo: '',
-      company: 'PATHWAY DIGITAL SOLUTION',
-      date: '.',
+      company: '',
+      date: '',
       location: 'Lagos, Nigeria',
       description: '',
-      activity: '',
+      activity: 'Security Configurations and Deployment',
+    },
+    {
+      id: 5,
+      role: 'Cybersecurity Mentor',
+      logo: '',
+      company: '',
+      date: '',
+      location: 'Lagos, Nigeria',
+      description: '',
+      activity: 'Mentoring Cybersecurity begineers and enthisiasts',
     },
   ];
 
@@ -85,7 +95,7 @@ const Experience = () => {
         animate={controls}
       >
         <div className="font-bold text-2xl lg:text-4xl">My Experiences</div>
-        <div>My Experiences span across industries</div>
+        <div>My Experiences span across industries and diverse roles</div>
       </motion.div>
       {/* large screens */}
       <motion.div
@@ -138,10 +148,10 @@ const Experience = () => {
       >
         {experiences.map((experience, index) => (
          <div key={experience.id}>
-            <div className="absolute left-1/2 transform -translate-x-1/2 bg-[#122455] text-white w-8 h-8 rounded-full flex items-center justify-center z-20">
+            <div className="absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-[#122455] text-white w-8 h-8 rounded-full flex items-center justify-center z-20">
               <span>0{experience.id}</span>
             </div>
-          <div className="relative w-[90%] py-12 lg:w-full h-[100%] z-10 bg-gray-100 p-4 mx-auto lg:mx-8 my-8 rounded-xl shadow-md cursor-pointer" onClick={() => setSelectedExperience(experience)}>
+          <div className="relative w-[90%] py-4 lg:w-full h-auto z-10 bg-gray-100 p-3 mx-auto lg:mx-8 my-4 rounded-xl shadow-md cursor-pointer" onClick={() => setSelectedExperience(experience)}>
               <div className="flex flex-col items-center gap-[10%] m-auto mb-2 justify-center">
                 <div className="flex justify-center items-center gap-4">
                   <div className="">
