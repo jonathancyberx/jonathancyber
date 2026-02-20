@@ -34,7 +34,7 @@
     "react-simple-typewriter": "^5.0.1",
     "sanity": "^3.53.0",
     "styled-components": "^6.1.12",
-    "swiper": "^11.1.9"
+    "swiper": "^12.1.2"
   },
   "devDependencies": {
     "eslint": "^8",
